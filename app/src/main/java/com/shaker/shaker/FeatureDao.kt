@@ -1,5 +1,6 @@
 package com.shaker.shaker
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -14,6 +15,6 @@ interface FeatureDao {
 
 
     @Query("SELECT * FROM Features")
-    fun selectAll(): List<FeatureEntity>
+    fun selectAll(): LiveData<List<FeatureEntity>>
 
 }
