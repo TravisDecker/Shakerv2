@@ -1,11 +1,11 @@
-package com.shaker.shaker
+package com.shaker.shaker.Entities
 
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class GeometryEntity(
     val mag: Double,
-    val palce: String,
+    val place: String,
     val time: Long,
     val updated: Long,
     val url: String,
