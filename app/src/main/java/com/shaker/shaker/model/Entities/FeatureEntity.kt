@@ -1,4 +1,4 @@
-package com.shaker.shaker.Entities
+package com.shaker.shaker.model.Entities
 
 import androidx.annotation.NonNull
 import androidx.room.Entity

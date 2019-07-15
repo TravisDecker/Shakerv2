@@ -1,7 +1,7 @@
-package com.shaker.shaker
+package com.shaker.shaker.model
 
 import androidx.lifecycle.LiveData
-import com.shaker.shaker.Entities.FeatureEntity
+import com.shaker.shaker.model.Entities.FeatureEntity
 
 class FeatureRepository(private val featureDao: FeatureDao) {
 

@@ -1,4 +1,4 @@
-package com.shaker.shaker.Entities
+package com.shaker.shaker.model.Entities
 
 import kotlinx.serialization.Serializable
 

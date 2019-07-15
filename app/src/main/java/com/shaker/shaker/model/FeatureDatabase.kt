@@ -1,10 +1,10 @@
-package com.shaker.shaker
+package com.shaker.shaker.model
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.shaker.shaker.Entities.FeatureEntity
+import com.shaker.shaker.model.Entities.FeatureEntity
 
 @Database(entities = [FeatureEntity::class], version = 1)
 public abstract class FeatureDatabase : RoomDatabase() {
