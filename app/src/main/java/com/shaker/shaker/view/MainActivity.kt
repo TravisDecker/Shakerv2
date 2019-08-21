@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         shakerViewModel = ViewModelProviders.of(this).get(ShakerViewModel::class.java)
         shakerViewModel.allFeatures.observe(this, Observer { features ->
-            features?.let { }
+            features?.let { } //TODO Implement
         })
 
         fab.setOnClickListener { view ->
