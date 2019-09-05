@@ -26,4 +26,6 @@ class ShakerViewModel(application: Application) : AndroidViewModel(application) 
     fun insert(features: List<FeatureEntity>) = viewModelScope.launch(Dispatchers.IO) {
         repository.insert(features)
     }
+
+
 }

@@ -10,4 +10,6 @@ class FeatureRepository(private val featureDao: FeatureDao) {
     suspend fun insert(features: List<FeatureEntity>) {
         featureDao.insert(features)
     }
+
+
 }

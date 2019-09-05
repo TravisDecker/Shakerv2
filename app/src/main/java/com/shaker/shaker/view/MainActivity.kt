@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         shakerViewModel = ViewModelProviders.of(this).get(ShakerViewModel::class.java)
         shakerViewModel.allFeatures.observe(this, Observer { features ->
-            features?.let { } //TODO Implement
+            features?.let { } //TODO Implement, THis is where you would populate pins
         })
 
         fab.setOnClickListener { view ->
